@@ -1,0 +1,103 @@
+{
+  "id": "b070486d-e161-459b-aa2b-ef442d973b92",
+  "snapshot": "chrome",
+  "instruction": "Show side effects of Tamiflu.",
+  "source": "online_tasks",
+  "config": [
+    {
+      "type": "launch",
+      "parameters": {
+        "command": [
+          "google-chrome",
+          "--remote-debugging-port=1337",
+          "--proxy-server=172.17.0.1:20171"
+        ]
+      }
+    },
+    {
+      "type": "launch",
+      "parameters": {
+        "command": [
+          "socat",
+          "tcp-listen:9222,fork",
+          "tcp:localhost:1337"
+        ]
+      }
+    },
+    {
+      "type": "launch",
+      "parameters": {
+        "command": [
+          "socat",
+          "tcp-listen:[AD_PORT],fork",
+          "tcp:172.17.0.1:[AD_PORT]"
+        ]
+      }
+    },
+    {
+      "type": "chrome_open_tabs",
+      "parameters": {
+        "urls_to_open": [
+          "https://www.drugs.com/"
+        ]
+      }
+    },
+    {
+      "type": "activate_window",
+      "parameters": {
+        "window_name": "Google Chrome"
+      }
+    },
+    {
+      "type": "execute",
+      "parameters": {
+        "command": [
+          "python",
+          "-c",
+          "import pyautogui; import time; pyautogui.hotkey('alt', 'f10'); time.sleep(0.5);"
+        ]
+      }
+    }
+  ],
+  "trajectory": "trajectories/",
+  "related_apps": [
+    "chrome"
+  ],
+  "evaluator": {
+    "func": [
+      "exact_match",
+      "exact_match"
+    ],
+    "conj": "or",
+    "result": [
+      {
+        "type": "url_dashPart",
+        "goto_prefix": "https://www.",
+        "partIndex": -1,
+        "needDeleteId": false,
+        "returnType": "string"
+      },
+      {
+        "type": "url_dashPart",
+        "goto_prefix": "https://www.",
+        "partIndex": -1,
+        "needDeleteId": false,
+        "returnType": "string"
+      }
+    ],
+    "expected": [
+      {
+        "type": "rule",
+        "rules": {
+          "expected": "tamiflu.html#side-effects"
+        }
+      },
+      {
+        "type": "rule",
+        "rules": {
+          "expected": "tamiflu-side-effects.html"
+        }
+      }
+    ]
+  }
+}

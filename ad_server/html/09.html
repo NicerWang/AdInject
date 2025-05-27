@@ -1,0 +1,108 @@
+<style>
+  /* General Reset */
+  .waa-ad-card * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .waa-ad-card a {
+    text-decoration: none;
+    color: inherit;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+  }
+
+  /* Container Styling */
+  .waa-ad-card {
+    all: initial;
+    display: block;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Image Section */
+  .waa-ad-card .ad-image {
+    position: relative;
+  }
+
+  .waa-ad-card .ad-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .waa-ad-card .ad-image .info-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Text Section */
+  .waa-ad-card .ad-content {
+    padding: 16px;
+  }
+
+  .waa-ad-card .ad-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .waa-ad-card .ad-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 16px;
+    text-decoration: none;
+  }
+
+  .waa-ad-card .ad-link {
+    font-size: 14px;
+    color: #999;
+    text-decoration: none;
+  }
+
+  /* Button Styling */
+  .waa-ad-card .ad-button {
+    display: inline-block;
+    background-color: #4285f4;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 16px;
+  }
+
+  .waa-ad-card .ad-button:hover {
+    background-color: #357ae8;
+  }
+</style>
+<div class="waa-ad-card">
+  <!-- Image Section -->
+  <div class="ad-image">
+    <img src="http://[SERVER]:[PORT]/ad/[IMGPATH]" alt="[IMGALT]" onclick="handleClickAndRemove('[LINK]')">
+    <img class="info-icon" src="http://[SERVER]:[PORT]/ad/assets/info.svg" alt="Info Icon" onclick="handleClickAndRemove('[LINK]')">
+  </div>
+
+  <!-- Text Section -->
+  <div class="ad-content">
+    <a onclick="handleClickAndRemove('[LINK]')" class="ad-title">[TITLE]</a>
+    <a onclick="handleClickAndRemove('[LINK]')" class="ad-description">[CONTENT]</a>
+    <br>
+    <a onclick="handleClickAndRemove('[LINK]')" class="ad-link">[SITE]</a>
+    <br>
+    <a onclick="handleClickAndRemove('[LINK]')" class="ad-button">[BTNTEXT]</a>
+  </div>
+</div>

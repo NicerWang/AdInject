@@ -1,0 +1,107 @@
+  <style>
+    /* General Reset */
+    .waa-ad-card * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .waa-ad-card a {
+      text-decoration: none;
+      color: inherit;
+      overflow-wrap: break-word;
+      word-break: break-word;
+      white-space: normal;
+    }
+    /* Container Styles */
+    .waa-ad-card {
+      all: initial;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 16px;
+      position: relative;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Exclamation Icon */
+    .waa-ad-card .info-icon {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Title and Description */
+    .waa-ad-card .ad-title {
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .waa-ad-card .ad-description {
+      font-size: 14px;
+      color: #666;
+      text-decoration: none;
+    }
+
+    /* Footer Section */
+    .waa-ad-card .ad-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .waa-ad-card .ad-badge {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 12px;
+      color: #666;
+    }
+
+    .waa-ad-card .ad-badge span {
+      background-color: #4caf50;
+      color: #fff;
+      font-size: 10px;
+      font-weight: bold;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+
+    .waa-ad-card .visit-site-btn {
+      font-size: 14px;
+      color: #333;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .waa-ad-card .visit-site-btn:hover {
+      background-color: #f5f5f5;
+    }
+  </style>
+  <div class="waa-ad-card">
+    <!-- Exclamation Icon -->
+    <img src="http://[SERVER]:[PORT]/ad/assets/info.svg" alt="Info Icon" class="info-icon" onclick="handleClickAndRemove('[LINK]')">
+
+    <!-- Title and Description -->
+    <a onclick="handleClickAndRemove('[LINK]')" class="ad-title">[TITLE]</a>
+    <a onclick="handleClickAndRemove('[LINK]')" class="ad-description">[CONTENT]</a>
+
+    <!-- Footer -->
+    <div class="ad-footer">
+      <div class="ad-badge">
+        <span>Ad</span>
+        <a onclick="handleClickAndRemove('[LINK]')">[SITE]</a>
+      </div>
+      <a onclick="handleClickAndRemove('[LINK]')" class="visit-site-btn">[BTNTEXT]</a>
+    </div>
+  </div>

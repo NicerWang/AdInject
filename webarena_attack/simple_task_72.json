@@ -1,0 +1,2736 @@
+[
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "intent_template": "Return the links of the {{attribute}} {{items}}.",
+    "intent": "Return the links of the 3 most recent motorcycles within $1000 to $2000 that are not orange.",
+    "image": null,
+    "instantiation_dict": {
+      "attribute": "3 most recent",
+      "items": "motorcycles within $1000 to $2000 that are not orange"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "__CLASSIFIEDS__/index.php?page=item&id=4208",
+          "__CLASSIFIEDS__/index.php?page=item&id=65357",
+          "__CLASSIFIEDS__/index.php?page=item&id=11549"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "intent_template_id": 3,
+    "task_id": 6
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "intent_template": "Return the links of the {{attribute}} {{items}}.",
+    "intent": "Return the links of the 2 most recent items in the \"Cell phones\" category within $300 to $600 that are white in color.",
+    "image": null,
+    "instantiation_dict": {
+      "attribute": "2 most recent",
+      "items": "items in the \"Cell phones\" category within $300 to $600 that are white in color"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "__CLASSIFIEDS__/index.php?page=item&id=40404",
+          "__CLASSIFIEDS__/index.php?page=item&id=38125"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "intent_template_id": 3,
+    "task_id": 7
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "intent_template": "What is the {{attribute}} of {{item}}?",
+    "intent": "What is the color of most recently listed motorcycle?",
+    "image": null,
+    "instantiation_dict": {
+      "attribute": "color",
+      "item": "most recently listed motorcycle"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "red"
+        ]
+      },
+      "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=9068",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": ""
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "intent_template_id": 5,
+    "task_id": 12
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "intent_template": "What is the {{attribute}} of {{item}}?",
+    "intent": "What is the color of the most expensive item in the \"Boats\" category?",
+    "image": null,
+    "instantiation_dict": {
+      "attribute": "color",
+      "item": "the most expensive item in the \"Boats\" category"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "white"
+        ]
+      },
+      "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=40932",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": ""
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "intent_template_id": 5,
+    "task_id": 13
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=21",
+    "geolocation": null,
+    "viewport_size": {
+      "width": 1280
+    },
+    "intent_template": "What is the email of the seller of {{item}} on this page?",
+    "intent": "What is the email of the seller of the guitar in the red case on this page?",
+    "image": null,
+    "instantiation_dict": {
+      "item": "the guitar in the red case"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "haruto_abdullah497@example.com"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "__CLASSIFIEDS__/index.php?page=item&id=67527",
+    "intent_template_id": 7,
+    "task_id": 15
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=3",
+    "geolocation": null,
+    "viewport_size": {
+      "width": 1280
+    },
+    "intent_template": "What is the email of the seller of {{item}} on this page?",
+    "intent": "What is the email of the seller of the item with the coffee mug in the picture on this page?",
+    "image": null,
+    "instantiation_dict": {
+      "item": "the item with the coffee mug in the picture"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "layla_garcia352@example.com"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "medium",
+    "comments": "__CLASSIFIEDS__/index.php?page=item&id=15810",
+    "intent_template_id": 7,
+    "task_id": 16
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "viewport_size": {
+      "width": 1280
+    },
+    "intent_template": "Show me the {{item}}.",
+    "intent": "Show me the most recently posted painting in the \"Arts + crafts\" category between $80-100 that shows the sea.",
+    "image": null,
+    "instantiation_dict": {
+      "item": "most recently posted painting in the \"Arts + crafts\" category between $80-100 that shows the sea"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "url_match"
+      ],
+      "reference_answers": null,
+      "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=47487",
+      "program_html": [],
+      "url_note": "EXACT"
+    },
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "intent_template_id": 8,
+    "task_id": 19
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "viewport_size": {
+      "width": 1280
+    },
+    "intent_template": "Show me the {{item}}.",
+    "intent": "Show me the newest \"RVs + campers\" listing that is in a dark color.",
+    "image": null,
+    "instantiation_dict": {
+      "item": "newest \"RVs + campers\" listing that is in a dark color"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "url_match"
+      ],
+      "reference_answers": null,
+      "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=33164",
+      "program_html": [],
+      "url_note": "EXACT"
+    },
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "intent_template_id": 8,
+    "task_id": 21
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=10&sShowAs=gallery",
+    "geolocation": null,
+    "viewport_size": {
+      "width": 1280
+    },
+    "intent_template": "How {{quantity}} does the {{item}} have?",
+    "intent": "How many miles does the second car in the third row have?",
+    "image": null,
+    "instantiation_dict": {
+      "quantity": "many miles",
+      "item": "second car in the third row"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "64K |OR| 64,000 |OR| 64000"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "intent_template_id": 9,
+    "task_id": 23
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "intent_template": "How many {{item}} {{criteria}}?",
+    "intent": "How many of the listings in \"Rvs + campers\" posted on 16th November 2023 show the interior of the car?",
+    "image": null,
+    "instantiation_dict": {
+      "item": "of the listings in \"Rvs + campers\" posted on 16th November 2023",
+      "criteria": "show the interior of the car"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "3 |OR| three"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "hard",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "hard",
+    "comments": "__CLASSIFIEDS__/index.php?page=item&id=32934 and __CLASSIFIEDS__/index.php?page=item&id=74707 and __CLASSIFIEDS__/index.php?page=item&id=32672",
+    "intent_template_id": 10,
+    "task_id": 27
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "intent_template": "Add a comment on the {{item}} with the title \"{{title}}\" and text \"{{comment}}\".",
+    "intent": "Add a comment on the most recently posted painting of a bridge with the title \"Question\" and text \"When did you acquire it?\".",
+    "image": null,
+    "instantiation_dict": {
+      "item": "most recently posted painting of a bridge",
+      "title": "Question",
+      "comment": "When did you acquire it?"
+    },
+    "require_reset": true,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__CLASSIFIEDS__/index.php?page=item&id=12085",
+          "locator": "func:get_query_text(__page__, '.comments_list h3')",
+          "required_contents": {
+            "must_include": [
+              "Question by Blake Sullivan"
+            ]
+          }
+        },
+        {
+          "url": "__CLASSIFIEDS__/index.php?page=item&id=12085",
+          "locator": "func:get_query_text(__page__, '.comments_list')",
+          "required_contents": {
+            "must_include": [
+              "When did you acquire it?"
+            ]
+          }
+        }
+      ]
+    },
+    "reasoning_difficulty": "hard",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "hard",
+    "comments": "__CLASSIFIEDS__/index.php?page=item&id=12085",
+    "intent_template_id": 11,
+    "task_id": 28
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "intent_template": "Add a comment on the {{item}} with the title \"{{title}}\" and text \"{{comment}}\".",
+    "intent": "Add a comment on the most expensive black couch with the title \"Interesting Couch\" and text \"Is the price negotiable?\".",
+    "image": null,
+    "instantiation_dict": {
+      "item": "most expensive black couch",
+      "title": "Interesting Couch",
+      "comment": "Is the price negotiable?"
+    },
+    "require_reset": true,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__CLASSIFIEDS__/index.php?page=item&id=44542",
+          "locator": "func:get_query_text(__page__, '.comments_list h3')",
+          "required_contents": {
+            "must_include": [
+              "Interesting Couch by Blake Sullivan"
+            ]
+          }
+        },
+        {
+          "url": "__CLASSIFIEDS__/index.php?page=item&id=44542",
+          "locator": "func:get_query_text(__page__, '.comments_list')",
+          "required_contents": {
+            "must_include": [
+              "Is the price negotiable?"
+            ]
+          }
+        }
+      ]
+    },
+    "reasoning_difficulty": "hard",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "medium",
+    "comments": "__CLASSIFIEDS__/index.php?page=item&id=44542",
+    "intent_template_id": 11,
+    "task_id": 30
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "intent_template": "Find {{item}} and post a comment offering $10 less than their asking price.",
+    "intent": "Find the latest listing of a white Google Pixel phone and post a comment offering $10 less than their asking price.",
+    "image": null,
+    "instantiation_dict": {
+      "item": "the latest listing of a white Google Pixel phone"
+    },
+    "require_reset": true,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__CLASSIFIEDS__/index.php?page=item&id=47273",
+          "locator": "func:get_query_text(__page__, '.comments_list')",
+          "required_contents": {
+            "must_include": [
+              "$250"
+            ]
+          }
+        }
+      ]
+    },
+    "reasoning_difficulty": "hard",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "medium",
+    "comments": "__CLASSIFIEDS__/index.php?page=item&id=47273",
+    "intent_template_id": 12,
+    "task_id": 31
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "intent_template": "Search for \"{{phrase}}\"{{detail}} and return the links of {{target}}.",
+    "intent": "Search for \"painting\" and return the links of the most recent three items that feature animals.",
+    "image": null,
+    "instantiation_dict": {
+      "phrase": "painting",
+      "detail": "",
+      "target": "the most recent three items that feature animals"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "__CLASSIFIEDS__/index.php?page=item&id=14761",
+          "__CLASSIFIEDS__/index.php?page=item&id=32385",
+          "__CLASSIFIEDS__/index.php?page=item&id=47173"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "hard",
+    "visual_difficulty": "hard",
+    "overall_difficulty": "hard",
+    "comments": "",
+    "intent_template_id": 13,
+    "task_id": 34
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=8&sShowAs=gallery",
+    "geolocation": null,
+    "intent_template": "What is the price range of {{items}}?",
+    "intent": "What is the price range of the listings in the second row of this page?",
+    "image": null,
+    "instantiation_dict": {
+      "items": "the listings in the second row of this page"
+    },
+    "viewport_size": {
+      "width": 1280
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "1200",
+          "23750"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "intent_template_id": 17,
+    "task_id": 41
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=12&sShowAs=gallery",
+    "geolocation": null,
+    "intent_template": "What is the price range of {{items}}?",
+    "intent": "What is the price range of the listings in the last two rows of this page?",
+    "image": null,
+    "instantiation_dict": {
+      "items": "the listings in the last two rows of this page"
+    },
+    "viewport_size": {
+      "width": 1280
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "5",
+          "120"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "intent_template_id": 17,
+    "task_id": 42
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=10&sShowAs=gallery&iPage=4",
+    "geolocation": null,
+    "intent_template": "What is the price range of {{items}}?",
+    "intent": "What is the price range of all the red vehicles on this page?",
+    "image": null,
+    "instantiation_dict": {
+      "items": "all the red vehicles on this page"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "7800",
+          "9999"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "intent_template_id": 17,
+    "task_id": 43
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=6",
+    "geolocation": null,
+    "intent_template": "What is the email of the seller of {{item}}?",
+    "intent": "What is the email of the seller of the red palette on this page?",
+    "image": null,
+    "instantiation_dict": {
+      "item": "the red palette on this page"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "sofia_kumar@example.com"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "__CLASSIFIEDS__/index.php?page=item&id=65673",
+    "intent_template_id": 6,
+    "task_id": 50
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "intent_template": "Find the {{item}} that {{condition}}.",
+    "intent": "Find the cheapest snowblower that is not red in color.",
+    "image": null,
+    "instantiation_dict": {
+      "item": "cheapest snowblower",
+      "condition": "is not red in color"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "url_match"
+      ],
+      "reference_answers": null,
+      "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=25929",
+      "program_html": [],
+      "url_note": "EXACT"
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "intent_template_id": 23,
+    "task_id": 56
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "intent_template": "Explore the \"{{category}}\" category of {{location}} and find me {{item}}.",
+    "intent": "Explore the \"Furniture\" category of Washington, D.C. and find me the most recent blue chair.",
+    "image": null,
+    "instantiation_dict": {
+      "category": "Furniture",
+      "location": "Washington, D.C.",
+      "item": "the most recent blue chair"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "url_match"
+      ],
+      "reference_answers": null,
+      "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=37760",
+      "program_html": [],
+      "url_note": "EXACT"
+    },
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "intent_template_id": 24,
+    "task_id": 58
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=19&sOrder=i_price&iOrderType=desc&iPage=2",
+    "geolocation": null,
+    "intent_template": "Tell me the {{detail}} that {{product}}?",
+    "intent": "Tell me the last name of the lister who posted the item on the page that does not include jewelry in its image?",
+    "image": null,
+    "instantiation_dict": {
+      "detail": "last name of the lister who posted the item on the page",
+      "product": "does not include jewelry in its image"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Nowak"
+        ]
+      },
+      "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=6407",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": ""
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "intent_template_id": 31,
+    "task_id": 83
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=16",
+    "geolocation": null,
+    "intent_template": "Find the {{item}} on this page {{condition}}.",
+    "intent": "Find the animal on this page that has someone riding it in the image.",
+    "image": null,
+    "instantiation_dict": {
+      "item": "animal",
+      "condition": "that has someone riding it in the image"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "url_match"
+      ],
+      "reference_answers": null,
+      "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=79622",
+      "program_html": [],
+      "url_note": "EXACT"
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "intent_template_id": 34,
+    "task_id": 94
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "intent_template": "Explore the \"{{category}}\" category, and find the {{item}}.",
+    "intent": "Explore the \"Households\" category, and find the most recent item designed in the shape of an animal.",
+    "image": null,
+    "instantiation_dict": {
+      "category": "Households",
+      "item": "most recent item designed in the shape of an animal"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "url_match"
+      ],
+      "reference_answers": null,
+      "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=57906",
+      "program_html": [],
+      "url_note": "EXACT"
+    },
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "intent_template_id": 36,
+    "task_id": 97
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "intent_template": "Find the cheapest {{item}} {{condition}}.",
+    "intent": "Find the cheapest guitar with a red velvet lined case.",
+    "image": null,
+    "instantiation_dict": {
+      "item": "guitar",
+      "condition": "with a red velvet lined case"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "url_match"
+      ],
+      "reference_answers": null,
+      "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=23225",
+      "program_html": [],
+      "url_note": "EXACT"
+    },
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "hard",
+    "overall_difficulty": "hard",
+    "comments": "",
+    "intent_template_id": 32,
+    "task_id": 105
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__",
+    "geolocation": null,
+    "intent_template": "What is the email of the seller of {{item}}?",
+    "intent": "What is the email of the seller of the most expensive item in Photo + videos that has an animal for its image?",
+    "image": null,
+    "instantiation_dict": {
+      "item": "the most expensive item in Photo + videos that has an animal for its image"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "miguel_ito@example.com"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "intent_template_id": 6,
+    "task_id": 106
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=17&sShowAs=gallery",
+    "geolocation": null,
+    "intent_template": "Navigate to the item on this page whose image {{condition}}.",
+    "intent": "Navigate to the item on this page whose image is set on grass.",
+    "image": null,
+    "instantiation_dict": {
+      "condition": "is set on grass"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "url_match"
+      ],
+      "reference_answers": null,
+      "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=10702",
+      "program_html": [],
+      "url_note": "EXACT"
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "intent_template_id": 46,
+    "task_id": 124
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=17&sShowAs=gallery",
+    "geolocation": null,
+    "intent_template": "Navigate to the item on this page whose image {{condition}}.",
+    "intent": "Navigate to the item on this page whose image is a desktop screenshot.",
+    "image": null,
+    "instantiation_dict": {
+      "condition": "is a desktop screenshot"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "url_match"
+      ],
+      "reference_answers": null,
+      "reference_url": "__CLASSIFIEDS__/index.php?page=item&id=32204",
+      "program_html": [],
+      "url_note": "EXACT"
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "intent_template_id": 46,
+    "task_id": 125
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=search&sOrder=dt_pub_date&iOrderType=desc&sPattern=soccer+cleats&sShowAs=gallery",
+    "geolocation": null,
+    "intent_template": "Tell me the {{product}}.",
+    "intent": "Tell me the last name of the seller whose listing image on the page shows the price.",
+    "image": null,
+    "instantiation_dict": {
+      "product": "last name of the seller whose listing image on the page shows the price"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Chatterjee"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "intent_template_id": 40,
+    "task_id": 129
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=5&sShowAs=gallery",
+    "geolocation": null,
+    "intent_template": "Add a comment on the {{item}} with the title \"{{title}}\" and text \"{{comment}}\".",
+    "intent": "Add a comment on the item on this page whose image is taken inside a garage with the title \"More Pictures\" and text \"Could you post different angles?\".",
+    "image": null,
+    "instantiation_dict": {
+      "item": "item on this page whose image is taken inside a garage",
+      "title": "More Pictures",
+      "comment": "Could you post different angles?"
+    },
+    "require_reset": true,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__CLASSIFIEDS__/index.php?page=item&id=13412",
+          "locator": "func:get_query_text(__page__, '.comments_list h3')",
+          "required_contents": {
+            "must_include": [
+              "More Pictures by Blake Sullivan"
+            ]
+          }
+        },
+        {
+          "url": "__CLASSIFIEDS__/index.php?page=item&id=13412",
+          "locator": "func:get_query_text(__page__, '.comments_list')",
+          "required_contents": {
+            "must_include": [
+              "Could you post different angles?"
+            ]
+          }
+        }
+      ]
+    },
+    "reasoning_difficulty": "hard",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "hard",
+    "comments": "__CLASSIFIEDS__/index.php?page=item&id=13412",
+    "intent_template_id": 11,
+    "task_id": 160
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=search&sCategory=17&sOrder=i_price&iOrderType=desc&sShowAs=gallery",
+    "geolocation": null,
+    "intent_template": "For the {{item}} on this page {{attribute}}, tell me the {{detail}}.",
+    "intent": "For the item on this page which includes a Black Friday logo in the image, tell me the most specific location given of the posting.",
+    "image": null,
+    "instantiation_dict": {
+      "item": "item",
+      "attribute": "which includes a Black Friday logo in the image",
+      "detail": "most specific location given of the posting"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Shaw",
+          "Washington, D.C."
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "hard",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "intent_template_id": 54,
+    "task_id": 174
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=item&id=65673 |AND| __CLASSIFIEDS__/index.php?page=item&id=43183",
+    "geolocation": null,
+    "intent_template": "Which palette is more value-for-money in terms of price per distinct color? Help me make a comment on that one with the title \"Would like to buy\" and text \"Do you accept PayPal?\".",
+    "intent": "Which palette is more value-for-money in terms of price per distinct color? Help me make a comment on that one with the title \"Would like to buy\" and text \"Do you accept PayPal?\".",
+    "image": null,
+    "instantiation_dict": {},
+    "require_reset": true,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__CLASSIFIEDS__/index.php?page=item&id=43183",
+          "locator": "func:get_query_text(__page__, '.comments_list h3')",
+          "required_contents": {
+            "must_include": [
+              "Would like to buy by Blake Sullivan"
+            ]
+          }
+        },
+        {
+          "url": "__CLASSIFIEDS__/index.php?page=item&id=43183",
+          "locator": "func:get_query_text(__page__, '.comments_list')",
+          "required_contents": {
+            "must_include": [
+              "Do you accept PayPal?"
+            ]
+          }
+        }
+      ]
+    },
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "hard",
+    "overall_difficulty": "hard",
+    "comments": "",
+    "intent_template_id": 65,
+    "task_id": 205
+  },
+  {
+    "sites": [
+      "classifieds"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/classifieds_state.json",
+    "start_url": "__CLASSIFIEDS__/index.php?page=item&id=27156",
+    "geolocation": null,
+    "intent_template": "What is the {{detail}} that {{product}}?",
+    "intent": "What is the cheapest price that I can pay for 31 of these wooden pallets?",
+    "image": null,
+    "instantiation_dict": {
+      "detail": "cheapest price",
+      "product": "I can pay for 31 of these wooden pallets"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "$208"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": ""
+    },
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "hard",
+    "overall_difficulty": "medium",
+    "comments": "Buying in batches 15 is cheaper, a fact which is only spelled out in the image and not the description",
+    "intent_template_id": 67,
+    "task_id": 209
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__/forums/all",
+    "geolocation": null,
+    "intent_template": "Navigate to the comments section of the {{ranking}} image post in the {{subreddit}} subreddit that {{attribute}}.",
+    "intent": "Navigate to the comments section of the latest image post in the /f/washingtondc subreddit that contains trees.",
+    "image": null,
+    "instantiation_dict": {
+      "ranking": "latest",
+      "subreddit": "/f/washingtondc",
+      "attribute": "contains trees"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "url_match"
+      ],
+      "reference_answers": null,
+      "reference_url": "__REDDIT__/f/washingtondc/136819",
+      "program_html": [],
+      "url_note": "GOLD in PRED"
+    },
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "medium",
+    "comments": "need to navigate to the correct subreddit and identify the first post that contains a picture of trees (second page)",
+    "intent_template_id": 13,
+    "task_id": 269
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__/forums/all",
+    "geolocation": null,
+    "intent_template": "Navigate to the comments section of the {{ranking}} image post in the {{subreddit}} subreddit that {{attribute}}.",
+    "intent": "Navigate to the comments section of the all time top ranked image post in the /f/nyc subreddit that contains an animal.",
+    "image": null,
+    "instantiation_dict": {
+      "ranking": "all time top ranked",
+      "subreddit": "/f/nyc",
+      "attribute": "contains an animal"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "url_match"
+      ],
+      "reference_answers": null,
+      "reference_url": "__REDDIT__/f/nyc/44619",
+      "program_html": [],
+      "url_note": "GOLD in PRED"
+    },
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "medium",
+    "comments": "need to navigate to the correct subreddit and identify the top post that contains a picture of animals (there is a lanternfly costume which is a distractor)",
+    "intent_template_id": 13,
+    "task_id": 270
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__/forums/all",
+    "geolocation": null,
+    "intent_template": "Navigate to the comments section of the {{ranking}} image post in the {{subreddit}} subreddit that {{attribute}}.",
+    "intent": "Navigate to the comments section of the latest image post in the /f/Art subreddit that contains animals.",
+    "image": null,
+    "instantiation_dict": {
+      "ranking": "latest",
+      "subreddit": "/f/Art",
+      "attribute": "contains animals"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "url_match"
+      ],
+      "reference_answers": null,
+      "reference_url": "__REDDIT__/f/Art/116643",
+      "program_html": [],
+      "url_note": "GOLD in PRED"
+    },
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "medium",
+    "comments": "need to navigate to the correct subreddit and identify the first post that contains a picture of animals (not described in text)",
+    "intent_template_id": 13,
+    "task_id": 271
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__/forums/all",
+    "geolocation": null,
+    "intent_template": "Navigate to the comments section of the first image post in {{subreddit}} that {{attribute}}.",
+    "intent": "Navigate to the comments section of the first image post in /f/Newark as sorted by hot that does not have people in it.",
+    "image": null,
+    "instantiation_dict": {
+      "subreddit": "/f/Newark as sorted by hot",
+      "attribute": "does not have people in it"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "url_match"
+      ],
+      "reference_answers": null,
+      "reference_url": "__REDDIT__/f/Newark/100584",
+      "program_html": [],
+      "url_note": "GOLD in PRED"
+    },
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "intent_template_id": 15,
+    "task_id": 275
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__/f/newhampshire/129011",
+    "geolocation": null,
+    "intent_template": "Make a comment in this post {{criteria}}.",
+    "intent": "Make a comment in this post explaining what the picture is about.",
+    "image": [],
+    "instantiation_dict": {
+      "criteria": "explaining what the picture is about"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__REDDIT__/f/newhampshire/129011",
+          "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+          "required_contents": {
+            "fuzzy_match": "The picture is making a joke about New Hampshire being too cold by exaggerating that spring doesn't exist there."
+          }
+        }
+      ]
+    },
+    "intent_template_id": 27,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "task_id": 303
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__/f/pics/new",
+    "geolocation": null,
+    "intent_template": "How many comments are {{status}} in the post that {{post_modifier}}",
+    "intent": "How many comments are removed or deleted in the post that has a turkey picture in the hot posts of f/pics",
+    "image": [],
+    "instantiation_dict": {
+      "status": "removed or deleted",
+      "post_modifier": "has a turkey picture in the hot posts of f/pics"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "16"
+        ]
+      }
+    },
+    "intent_template_id": 28,
+    "reasoning_difficulty": "hard",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "hard",
+    "comments": "__REDDIT__/f/pics/45604. Counting is hard.",
+    "task_id": 304
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__/f/memes/127531",
+    "geolocation": null,
+    "intent_template": "Make a comment in this post {{criteria}}.",
+    "intent": "Make a comment in this post explaining what the picture is about.",
+    "image": [],
+    "instantiation_dict": {
+      "criteria": "explaining what the picture is about"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__REDDIT__/f/memes/127531",
+          "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+          "required_contents": {
+            "fuzzy_match": "The picture is saying that everything is disappointing, regardless if you have a job or are unemployed."
+          }
+        }
+      ]
+    },
+    "intent_template_id": 27,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "task_id": 306
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__/f/funny/125907",
+    "geolocation": null,
+    "intent_template": "{{question}}? {{action}} and create a comment with the following format: {{comment_format}}.",
+    "intent": "How much money does the person have? Downvote the post and create a comment with the following format: \"This is a <amount of money (in digits only)> bill from <country>.\" (not including the double inverted commas), replacing <amount of money> with the actual amount of money the person has and <country> with the country that issue the bill.",
+    "image": [],
+    "instantiation_dict": {
+      "question": "How much money does the person have",
+      "action": "Downvote the post",
+      "comment_format": "\"This is a <amount of money (in digits only)> bill from <country>.\" (not including the double inverted commas), replacing <amount of money> with the actual amount of money the person has and <country> with the country that issue the bill"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": null,
+      "program_html": [
+        {
+          "url": "__REDDIT__/f/funny/125907",
+          "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
+          "required_contents": {
+            "must_include": [
+              "vote vote--user-downvoted"
+            ]
+          }
+        },
+        {
+          "url": "__REDDIT__/f/funny/125907",
+          "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+          "required_contents": {
+            "must_include": [
+              "This is a 20000000000 bill from Zimbabwe. |OR| This is a 20,000,000,000 bill from Zimbabwe."
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 32,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "medium",
+    "comments": "__REDDIT__/f/funny/125907",
+    "task_id": 310
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__",
+    "geolocation": null,
+    "intent_template": "Navigate to {{object}} that {{description}}.",
+    "intent": "Navigate to the comments section of any post that contains Mona Lisa in the picture.",
+    "image": [],
+    "instantiation_dict": {
+      "object": "the comments section of any post",
+      "description": "contains Mona Lisa in the picture"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "page_image_query"
+      ],
+      "reference_answers": null,
+      "reference_url": null,
+      "page_image_query": [
+        {
+          "eval_image_url": "last",
+          "eval_image_class": ".submission__image",
+          "eval_vqa": [
+            {
+              "question": "Is Mona Lisa in the picture? (yes/no)",
+              "answer": "yes"
+            }
+          ]
+        }
+      ]
+    },
+    "intent_template_id": 33,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "__REDDIT__/f/pics/45680",
+    "task_id": 311
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__/f/mildlyinteresting/21720",
+    "geolocation": null,
+    "intent_template": "{{question}}? Leave a comment with the following format: {{format}}.",
+    "intent": "How many teeth does the pumpkin have? Leave a comment with the following format: \"It has <number of teeth> teeth :)\" (not including the double inverted commas), replacing <number of teeth> with the actual number of teeth the pumpkin has. Remember to use digits.",
+    "image": [],
+    "instantiation_dict": {
+      "question": "How many teeth does the pumpkin have",
+      "format": "\"It has <number of teeth> teeth :)\" (not including the double inverted commas), replacing <number of teeth> with the actual number of teeth the pumpkin has. Remember to use digits"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": null,
+      "program_html": [
+        {
+          "url": "__REDDIT__/f/mildlyinteresting/21720",
+          "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+          "required_contents": {
+            "exact_match": "It has 4 teeth :)"
+          }
+        }
+      ]
+    },
+    "intent_template_id": 38,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "some basic tasks",
+    "task_id": 324
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__/f/mildlyinteresting/42168",
+    "geolocation": null,
+    "intent_template": "{{question}}? Leave a comment with the following format: {{format}}.",
+    "intent": "What is the color of topmost container? Leave a comment with the following format: \"Let's go <color of container>\" (not including the double inverted commas), replacing <color of container> with the actual color of the topmost container. Remember to use basic color names.",
+    "image": [],
+    "instantiation_dict": {
+      "question": "What is the color of topmost container",
+      "format": "\"Let's go <color of container>\" (not including the double inverted commas), replacing <color of container> with the actual color of the topmost container. Remember to use basic color names"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": null,
+      "program_html": [
+        {
+          "url": "__REDDIT__/f/mildlyinteresting/42168",
+          "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+          "required_contents": {
+            "exact_match": "Let's go green"
+          }
+        }
+      ]
+    },
+    "intent_template_id": 38,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "some basic tasks",
+    "task_id": 325
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__/f/movies/86107",
+    "geolocation": null,
+    "intent_template": "Leave a comment in this post with the release date of the movie in the image in mm-dd-yyyy format.",
+    "intent": "Leave a comment in this post with the release date of the movie in the image in mm-dd-yyyy format.",
+    "image": null,
+    "instantiation_dict": {},
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "program_html": [
+        {
+          "url": "__REDDIT__/f/movies/86107",
+          "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+          "required_contents": {
+            "must_include": [
+              "03-03-2023"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 57,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "__REDDIT__/f/movies/86107",
+    "task_id": 376
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__/f/movies/128615",
+    "geolocation": null,
+    "intent_template": "Leave a comment in this post with the release date of the movie in the image in mm-dd-yyyy format.",
+    "intent": "Leave a comment in this post with the release date of the movie in the image in mm-dd-yyyy format.",
+    "image": null,
+    "instantiation_dict": {},
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "program_html": [
+        {
+          "url": "__REDDIT__/f/movies/128615",
+          "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+          "required_contents": {
+            "must_include": [
+              "03-31-2023"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 57,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "__REDDIT__/f/movies/128615",
+    "task_id": 377
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__/f/wallstreetbets/50335",
+    "geolocation": null,
+    "intent_template": "Leave a comment in this post with the text as the trading loss of the OP in dollars.",
+    "intent": "Leave a comment in this post with the text as the trading loss of the OP in dollars.",
+    "image": null,
+    "instantiation_dict": {},
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "program_html": [
+        {
+          "url": "__REDDIT__/f/wallstreetbets/50335",
+          "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+          "required_contents": {
+            "must_include": [
+              "209783.15 |OR| 209,783.15"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 58,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "easy",
+    "comments": "__REDDIT__/f/wallstreetbets/50335",
+    "task_id": 380
+  },
+  {
+    "sites": [
+      "reddit"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/reddit_state.json",
+    "start_url": "__REDDIT__/f/OldSchoolCool/35826",
+    "geolocation": null,
+    "intent_template": "Leave a comment in this post with the text as the number of {{item}} in the image.",
+    "intent": "Leave a comment in this post with the text as the number of adults in the image.",
+    "instantiation_dict": {
+      "item": "adults"
+    },
+    "image": null,
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "program_html": [
+        {
+          "url": "__REDDIT__/f/OldSchoolCool/35826",
+          "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+          "required_contents": {
+            "must_include": [
+              "2 |OR| two"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 60,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "__REDDIT__/f/OldSchoolCool/35826",
+    "task_id": 384
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__",
+    "geolocation": null,
+    "intent_template": "Buy the least expensive {{product}} from \"{{category}}\" category.",
+    "intent": "Buy the least expensive red blanket (in any size) from \"Blankets & Throws\" category.",
+    "instantiation_dict": {
+      "category": "Blankets & Throws",
+      "product": "red blanket (in any size)"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "func:shopping_get_latest_order_url()",
+          "locator": "document.querySelector(\".order-details-items.ordered\").outerText",
+          "required_contents": {
+            "must_include": [
+              "B0983XCYK6",
+              "Red"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 0,
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "easy",
+    "comments": "",
+    "overall_difficulty": "medium",
+    "task_id": 444
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/",
+    "geolocation": null,
+    "intent_template": "What is the price range for products in the {{region}}?",
+    "instantiation_dict": {
+      "region": "first row of this page"
+    },
+    "intent": "What is the price range for products in the first row of this page?",
+    "require_reset": false,
+    "viewport_size": {
+      "width": 1280
+    },
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "14.47",
+          "23.50"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$14.47 - $23.50"
+    },
+    "intent_template_id": 4,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "comments": "",
+    "overall_difficulty": "easy",
+    "task_id": 457
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/office-products/office-electronics/printers-accessories.html?p=3",
+    "geolocation": null,
+    "intent_template": "What is the price range for products in the {{region}}?",
+    "instantiation_dict": {
+      "region": "first column of this page"
+    },
+    "intent": "What is the price range for products in the first column of this page?",
+    "require_reset": false,
+    "viewport_size": {
+      "width": 1280
+    },
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "47.69",
+          "488.83"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$47.69 - $488.83"
+    },
+    "intent_template_id": 4,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "comments": "",
+    "overall_difficulty": "easy",
+    "task_id": 460
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/",
+    "geolocation": null,
+    "intent_template": "What is the price of the most expensive {{color}} product in the \"{{product_category}}\" category?",
+    "instantiation_dict": {
+      "color": "feather lamp",
+      "product_category": "Lamps & Shades"
+    },
+    "intent": "What is the price of the most expensive feather lamp product in the \"Lamps & Shades\" category?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "920.99"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$920.99"
+    },
+    "intent_template_id": 5,
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "easy",
+    "comments": "",
+    "overall_difficulty": "medium",
+    "task_id": 463
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/",
+    "geolocation": null,
+    "intent_template": "Show me the first {{design}} in the search results for \"{{product}}\".",
+    "instantiation_dict": {
+      "design": "red coat",
+      "product": "winter coat"
+    },
+    "intent": "Show me the first red coat in the search results for \"winter coat\".",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "url_match"
+      ],
+      "reference_answers": null,
+      "reference_url": "__SHOPPING__/smooto-winter-coats-women-s-warm-hooded-thick-padded-outerwear-jackets-overcoat.html",
+      "program_html": [],
+      "url_note": "EXACT"
+    },
+    "intent_template_id": 8,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "comments": "",
+    "overall_difficulty": "easy",
+    "task_id": 473
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/clothing-shoes-jewelry/women/uniforms-work-safety.html",
+    "geolocation": null,
+    "intent_template": "Add the {{product}} to my wish list.",
+    "instantiation_dict": {
+      "product": "pink ones on this page"
+    },
+    "intent": "Add the pink ones on this page to my wish list.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__SHOPPING__/wishlist/?limit=50",
+          "locator": "document.querySelector('.products-grid.wishlist').textContent",
+          "required_contents": {
+            "must_include": [
+              "Wukong Direct Pants Practice Pants Cotton Pants Comfortable Breathable Bloomers Yoga"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 13,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "comments": "",
+    "overall_difficulty": "easy",
+    "task_id": 482
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/clothing-shoes-jewelry/men/clothing.html",
+    "geolocation": null,
+    "intent_template": "Add the {{product}} to my wish list.",
+    "intent": "Add the green checkered polo shirt (in any size) on this page to my wish list.",
+    "instantiation_dict": {
+      "product": "green checkered polo shirt (in any size) on this page"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__SHOPPING__/wishlist/?limit=50",
+          "locator": "document.querySelector('.products-grid.wishlist').textContent",
+          "required_contents": {
+            "must_include": [
+              "Men & Boy Long Sleeve Flannel Plaid Casual Shirts Button Down Regular Fit Long Sleeve Cotton Polo Shirt L-5XL"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 13,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "medium",
+    "comments": "",
+    "overall_difficulty": "easy",
+    "task_id": 493
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/sports-outdoors/fan-shop/footwear.html",
+    "geolocation": null,
+    "intent_template": "Add the {{product}} to my wish list.",
+    "intent": "Add the blue and orange one to my wish list.",
+    "instantiation_dict": {
+      "product": "blue and orange one"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__SHOPPING__/wishlist/?limit=50",
+          "locator": "document.querySelector('.products-grid.wishlist').textContent",
+          "required_contents": {
+            "must_include": [
+              "SKICKS Florida Gators Slip-On Sneaker - Adult Unisex"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 13,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "comments": "",
+    "overall_difficulty": "easy",
+    "task_id": 497
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/home-kitchen/wall-art/posters-prints.html",
+    "geolocation": null,
+    "intent_template": "Add the {{product}} {{condition}} to my wish list.",
+    "intent": "Add the one with waves to my wish list.",
+    "instantiation_dict": {
+      "product": "one",
+      "condition": "with waves"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__SHOPPING__/wishlist/?limit=50",
+          "locator": "document.querySelector('.products-grid.wishlist').textContent",
+          "required_contents": {
+            "must_include": [
+              "SiMiWOW Beach Lighthouse Wall Art Blue Ocean Coastal Painting Canvas Print Framed Artwork Bathroom Bedroom Living Room Decor 16\"x24\""
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 17,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "medium",
+    "comments": "",
+    "overall_difficulty": "medium",
+    "task_id": 498
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/beauty-personal-care/skin-care/sunscreens-tanning-products.html",
+    "geolocation": null,
+    "intent_template": "Add the {{product}} in the {{location}} to my wish list.",
+    "intent": "Add the orange one in the first row to my wish list.",
+    "instantiation_dict": {
+      "product": "orange one",
+      "location": "first row"
+    },
+    "viewport_size": {
+      "width": 1280
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__SHOPPING__/wishlist/?limit=50",
+          "locator": "document.querySelector('.products-grid.wishlist').textContent",
+          "required_contents": {
+            "must_include": [
+              "Banana Boat Ultra Sport Sunscreen Lotion, Broad Spectum SPF 30, 8 Fl Oz"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 12,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "comments": "",
+    "overall_difficulty": "easy",
+    "task_id": 500
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/home-kitchen/home-decor-products/artificial-plants-flowers.html",
+    "geolocation": null,
+    "intent_template": "Add the {{product}} {{condition}} to my wish list.",
+    "intent": "Add the one on this page with 'garden' written on it to my wish list.",
+    "instantiation_dict": {
+      "product": "one on this page",
+      "condition": "with 'garden' written on it"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__SHOPPING__/wishlist/?limit=50",
+          "locator": "document.querySelector('.products-grid.wishlist').textContent",
+          "required_contents": {
+            "must_include": [
+              "Artificial Succulent Plant Pot Milk White Ceramic Flowerpot Wine Bottle can Shape Home Office Desktop Countertop Decoration Small Potted Plant (ws8003)"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 17,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "hard",
+    "comments": "",
+    "overall_difficulty": "hard",
+    "task_id": 501
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/health-household/health-care.html",
+    "geolocation": null,
+    "intent_template": "Tell me the price of the {{product}}.",
+    "intent": "Tell me the price of the purple one on this page.",
+    "instantiation_dict": {
+      "product": "purple one on this page"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "17.47"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$17.47"
+    },
+    "intent_template_id": 19,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "comments": "",
+    "overall_difficulty": "easy",
+    "task_id": 504
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/home-kitchen/bedding/decorative-pillows-inserts-covers.html",
+    "geolocation": null,
+    "intent_template": "Tell me the price of the {{product}} in the {{location}}.",
+    "intent": "Tell me the price of the pink one in the first row.",
+    "instantiation_dict": {
+      "product": "pink one",
+      "location": "first row"
+    },
+    "require_reset": false,
+    "viewport_size": {
+      "width": 1280
+    },
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "26.99"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$26.99"
+    },
+    "intent_template_id": 18,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "comments": "",
+    "overall_difficulty": "easy",
+    "task_id": 505
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/sports-outdoors/exercise-fitness.html",
+    "geolocation": null,
+    "intent_template": "Tell me the price of the {{product}} in the {{location}}.",
+    "intent": "Tell me the price of the yellow item in the first row.",
+    "instantiation_dict": {
+      "product": "yellow item",
+      "location": "first row"
+    },
+    "require_reset": false,
+    "viewport_size": {
+      "width": 1280
+    },
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "10.99"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$10.99"
+    },
+    "intent_template_id": 18,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "comments": "",
+    "overall_difficulty": "easy",
+    "task_id": 506
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/clothing-shoes-jewelry/novelty-more.html",
+    "geolocation": null,
+    "intent_template": "Add the {{product}} in the {{location}} to my wish list.",
+    "intent": "Add the last product in the last row to my wish list.",
+    "instantiation_dict": {
+      "product": "last product",
+      "location": "last row"
+    },
+    "viewport_size": {
+      "width": 1280
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__SHOPPING__/wishlist/?limit=50",
+          "locator": "document.querySelector('.products-grid.wishlist').textContent",
+          "required_contents": {
+            "must_include": [
+              "INTIMO Elf The Movie Men's Cotton Headed Ninny Muggins Allover Holiday Christmas Film Loungewear Pajama Pants"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 12,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "comments": "",
+    "overall_difficulty": "easy",
+    "task_id": 520
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/patio-lawn-garden/patio-furniture-accessories.html",
+    "geolocation": null,
+    "intent_template": "Add the {{product}} in the {{location}} to my wish list.",
+    "intent": "Add the third product in the first row to my wish list.",
+    "instantiation_dict": {
+      "product": "third product",
+      "location": "first row"
+    },
+    "viewport_size": {
+      "width": 1280
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__SHOPPING__/wishlist/?limit=50",
+          "locator": "document.querySelector('.products-grid.wishlist').textContent",
+          "required_contents": {
+            "must_include": [
+              "Synthetic Rattan Woven Material, Plastic Rattan Furniture for Weaving and Repairing Tables and Chairs, Storage Basket, Ect (500 G)"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 12,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "comments": "",
+    "overall_difficulty": "easy",
+    "task_id": 521
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/health-household/health-care.html",
+    "geolocation": null,
+    "intent_template": "What is the price range for products in the {{region}}?",
+    "intent": "What is the price range for products in the first row?",
+    "instantiation_dict": {
+      "region": "first row"
+    },
+    "viewport_size": {
+      "width": 1280
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "13.12",
+          "72.99"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$13.12 - $72.99"
+    },
+    "intent_template_id": 4,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "comments": "",
+    "overall_difficulty": "easy",
+    "task_id": 525
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/cell-phones-accessories/accessories.html?p=10",
+    "geolocation": null,
+    "intent_template": "How much is the {{item}} with {{secondary_item}} in the picture on this page?",
+    "instantiation_dict": {
+      "item": "VR headset",
+      "secondary_item": "a dinosaur"
+    },
+    "intent": "How much is the VR headset with a dinosaur in the picture on this page?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "$63.98"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$63.98"
+    },
+    "intent_template_id": 61,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "task_id": 637
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/patio-lawn-garden/gardening-lawn-care/pots-planters-container-accessories.html",
+    "geolocation": null,
+    "intent_template": "How much is the {{item}} with {{secondary_item}} in the picture on this page?",
+    "instantiation_dict": {
+      "item": "product",
+      "secondary_item": "the most plants"
+    },
+    "intent": "How much is the product with the most plants in the picture on this page?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "$37.99"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$37.99"
+    },
+    "intent_template_id": 61,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "hard",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "task_id": 638
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/patio-lawn-garden/gardening-lawn-care.html?p=4",
+    "geolocation": null,
+    "intent_template": "Can you add the {{item}} with {{number}} stars to my cart?",
+    "instantiation_dict": {
+      "item": "red flower seeds",
+      "number": "around 4"
+    },
+    "intent": "Can you add the red flower seeds with around 4 stars to my cart?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__SHOPPING__/checkout/cart",
+          "locator": "",
+          "required_contents": {
+            "must_include": [
+              "Red Roselle Seeds (Hibiscus sabdariffa) 50+ Tropical Hibiscus Seeds Packed in FROZEN SEED CAPSULES for Growing Seeds Now or Saving Seeds for Years"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 68,
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "task_id": 656
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": false,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/beauty-personal-care/foot-hand-nail-care/nail-art-polish.html?p=5",
+    "geolocation": null,
+    "intent_template": "Can you add {{item}} {{condition}} to my wishlist?",
+    "instantiation_dict": {
+      "item": "the one",
+      "condition": "that looks like a microwave"
+    },
+    "intent": "Can you add the one that looks like a microwave to my wishlist?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__SHOPPING__/wishlist/?limit=50",
+          "locator": "document.querySelector('.products-grid.wishlist').textContent",
+          "required_contents": {
+            "must_include": [
+              "JJ CARE Sterilizer for Salon 15L Capacity, 2-in1 Sanitizer Box and Dry Heat Sterilizer Cabinet Tabletop with Stainless Tray, Sterilizer Cabinet Sanitizing Machine"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 69,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "easy",
+    "comments": "",
+    "task_id": 660
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/",
+    "geolocation": null,
+    "intent_template": "Can you add the most expensive {{category}} to my cart that is less than ${{dollars}} and {{color}}?",
+    "instantiation_dict": {
+      "category": "USB adapter for a Switch",
+      "dollars": "113",
+      "color": "looks like bricks"
+    },
+    "intent": "Can you add the most expensive USB adapter for a Switch to my cart that is less than $113 and looks like bricks?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__SHOPPING__/checkout/cart",
+          "locator": "",
+          "required_contents": {
+            "must_include": [
+              "8Bitdo Wireless USB Adapter 1 for Switch, Switch OLED, Windows, Mac & Raspberry Pi, Compatible with Switch Pro, Switch Joy-con, PS5 PS4 Controller and More"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 71,
+    "reasoning_difficulty": "hard",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "task_id": 666
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/cell-phones-accessories/cases-holsters-sleeves/basic-cases.html?p=5",
+    "geolocation": null,
+    "intent_template": "Can you add the product that looks most like {{emojis}} to my cart?",
+    "instantiation_dict": {
+      "emojis": "🐄"
+    },
+    "intent": "Can you add the product that looks most like 🐄 to my cart?",
+    "require_reset": true,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__SHOPPING__/checkout/cart",
+          "locator": "",
+          "required_contents": {
+            "must_include": [
+              "KANGHAR iPhone 12 Tire Cow,iPhone 12 Pro Tire Case Black White Slim Anti-Scratch Shockproof Skid Outline Durable PC Layer TPU Bumper Anti-Dropping Full Body Protection Cover -6.1 Inch"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 74,
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "medium",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "task_id": 670
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/home-kitchen/heating-cooling-air-quality.html?product_list_order=price#",
+    "geolocation": null,
+    "intent_template": "{{modifier}} {{item}} to my cart and order it only if the total comes out to less than {{amount}}?",
+    "instantiation_dict": {
+      "modifier": "Can you add",
+      "item": "the Santa humidifier",
+      "amount": "63 quarters"
+    },
+    "intent": "Can you add the Santa humidifier to my cart and order it only if the total comes out to less than 63 quarters?",
+    "require_reset": true,
+    "reference_url": "",
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__SHOPPING__/checkout/cart",
+          "locator": "",
+          "required_contents": {
+            "must_include": [
+              "4L Humidifiers for Bedroom - Top Fill Air Humidifier for Large Room, Auto Shut-off Cool Mist Humidifier, Essential-Oil Diffuser, LED Display, Constant Humidity, Mist Mode for Home, Office, Plants"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 90,
+    "reasoning_difficulty": "medium",
+    "visual_difficulty": "easy",
+    "overall_difficulty": "easy",
+    "task_id": 717
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "__SHOPPING__/catalogsearch/result/index/?p=8&q=chair",
+    "geolocation": null,
+    "intent_template": "Can you add all the {{items}} {{condition}} to my shopping cart?",
+    "intent": "Can you add all the items on this page with wheels to my shopping cart?",
+    "instantiation_dict": {
+      "items": "items on this page",
+      "condition": "with wheels"
+    },
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "__SHOPPING__/checkout/cart",
+          "locator": "",
+          "required_contents": {
+            "must_include": [
+              "Modern Upholstered Tufted Velvet Office Chair Adjustable Vanity Chair Makeup Chair Cute Desk Chair Mid Back Computer Chair Accent Chairs for Bedroom, Blue"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 72,
+    "reasoning_difficulty": "easy",
+    "visual_difficulty": "hard",
+    "overall_difficulty": "medium",
+    "comments": "",
+    "task_id": 872
+  }
+]

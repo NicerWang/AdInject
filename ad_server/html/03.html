@@ -1,0 +1,66 @@
+<style>
+    .waa-banner a {
+        text-decoration: none;
+        color: inherit;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        white-space: normal;
+    }
+    .waa-banner {
+        all: initial;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 1px;
+        border: 1px solid #e0e0e0;
+        padding: 15px;
+        margin: auto;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        position: relative;
+    }
+    .waa-banner .text-content {
+        flex: 1;
+    }
+    .waa-banner .title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #37474f;
+        margin: 0 0 10px 0;
+    }
+    .waa-banner .description {
+        font-size: 16px;
+        color: #555;
+        margin: 0;
+    }
+    .waa-banner .button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+    }
+    .waa-banner .icon {
+        width: 20px;
+        height: 20px;
+    }
+    .waa-banner .icon-anchor {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+</style>
+<div class="waa-banner">
+    <div class="text-content">
+        <a onclick="handleClickAndRemove('[LINK]')" class="title">[TITLE]</a>
+        <div class="description">
+            <a onclick="handleClickAndRemove('[LINK]')">[CONTENT]</a>
+        </div>
+    </div>
+    <a onclick="handleClickAndRemove('[LINK]')" class="button">[BTNTEXT]</a>
+    <a onclick="handleClickAndRemove('[LINK]')" class="icon-anchor">
+        <img src="http://[SERVER]:[PORT]/ad/assets/info.svg" alt="Info Icon" class="icon" >
+    </a>
+</div>

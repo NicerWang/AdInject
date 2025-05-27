@@ -1,0 +1,75 @@
+<style>
+    .waa-card a {
+        text-decoration: none;
+        color: inherit;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        white-space: normal;
+    }
+    .waa-card {
+        all: initial;
+        display: block;
+        border: 1px solid #ddd;
+        width: 100%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .waa-card-header {
+        padding: 20px;
+        position: relative;
+    }
+    .waa-card-header .h1 {
+        font-size: 20px;
+        color: #333;
+        margin: 0;
+        cursor: pointer;
+    }
+    .waa-card-header .p {
+        font-size: 14px;
+        color: #555;
+        margin: 5px 0 0;
+        cursor: pointer;
+    }
+    .waa-card-content {
+        padding: 0 20px 20px;
+        font-size: 14px;
+        color: #777;
+        margin: 0;
+        cursor: pointer;
+    }
+    .waa-card-footer {
+        background-color: #f0f0f0;
+        padding: 20px;
+        text-align: center;
+    }
+    .waa-card-footer a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .info-icon {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+</style>
+<div class="waa-card">
+    <div class="waa-card-header">
+        <div class="h1" onclick="handleClickAndRemove('[LINK]')">[TITLE]</div>
+        <div class="p">[SUBTITLE]</div>
+        <img src="http://[SERVER]:[PORT]/ad/assets/info.svg" alt="Info" class="info-icon" onclick="handleClickAndRemove('[LINK]')">
+    </div>
+    <div class="waa-card-content">
+        <a onclick="handleClickAndRemove('[LINK]')">[CONTENT]</a>
+    </div>
+    <div class="waa-card-footer">
+        <a onclick="handleClickAndRemove('[LINK]')">[BTNTEXT]</a>
+    </div>
+</div>

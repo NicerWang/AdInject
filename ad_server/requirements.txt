@@ -1,0 +1,2 @@
+fastapi[standard]
+git+https://github.com/HMaker/python-cdp.git@latest

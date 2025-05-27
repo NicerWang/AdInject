@@ -1,0 +1,127 @@
+<style>
+  /* General Reset */
+  .waa-ad-container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .waa-ad-container a {
+    text-decoration: none;
+    color: inherit;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+  }
+
+  /* Container Styles */
+  .waa-ad-container {
+    all: initial;
+    display: block;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: relative;
+  }
+
+  /* Image Section */
+  .waa-ad-container .ad-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .waa-ad-container .ad-image img {
+    width: 100%;
+    display: block;
+  }
+
+  /* Info Icon */
+  .waa-ad-container .info-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+  }
+
+  /* Text Content Section */
+  .waa-ad-container .ad-content {
+    padding: 16px;
+  }
+
+  .waa-ad-container .ad-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #000;
+  }
+
+  .waa-ad-container .ad-description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    color: #555;
+  }
+
+  /* Footer Section */
+  .waa-ad-container .ad-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #e0e0e0;
+    padding: 12px 16px;
+  }
+
+  .waa-ad-container .ad-tag {
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    background-color: #00a400;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+
+  .waa-ad-container .ad-link {
+    display: inline-block;
+    font-size: 14px;
+    color: #007bff;
+    background-color: #f8f9fa;
+    padding: 8px 16px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .waa-ad-container .ad-link:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+</style>
+<div class="waa-ad-container">
+  <!-- Image Section -->
+  <div class="ad-image">
+    <img src="http://[SERVER]:[PORT]/ad/[IMGPATH]" alt="[IMGALT]" onclick="handleClickAndRemove('[LINK]')">
+    <a onclick="handleClickAndRemove('[LINK]')" class="info-icon">
+      <img src="http://[SERVER]:[PORT]/ad/assets/info.svg" alt="Info Icon">
+    </a>
+  </div>
+
+  <!-- Text Content Section -->
+  <div class="ad-content">
+    <a onclick="handleClickAndRemove('[LINK]')" class="ad-title">[TITLE]</a>
+    <br/>
+    <a onclick="handleClickAndRemove('[LINK]')" class="ad-description">
+      [CONTENT]
+    </a>
+  </div>
+
+  <!-- Footer Section -->
+  <div class="ad-footer">
+    <a onclick="handleClickAndRemove('[LINK]')" class="ad-tag">Ad [SITE]</a>
+    <a onclick="handleClickAndRemove('[LINK]')" class="ad-link">[BTNTEXT]</a>
+  </div>
+</div>

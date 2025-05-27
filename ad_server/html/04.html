@@ -1,0 +1,81 @@
+<style>
+  .waa-container * {
+    box-sizing: border-box;
+  }
+  .waa-container a {
+    text-decoration: none;
+    color: inherit;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+  }
+
+  .waa-container {
+    all: initial;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #e0e0e0;
+    padding: 8px;
+    background-color: #fff;
+  }
+
+  .waa-container .image-container img {
+    width: 150px;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .waa-container .content {
+    /* padding-top: 8px; */
+    flex: 1;
+    margin-left: 16px;
+  }
+
+  .waa-container .content .h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0px;
+    margin-bottom: 8px;
+  }
+
+  .waa-container .content .p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0;
+  }
+
+  .waa-container .button-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .waa-container .button-container a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .waa-container .button-container a:hover {
+    background-color: #555;
+  }
+</style>
+<div class="waa-container">
+  <div class="image-container">
+    <img src="http://[SERVER]:[PORT]/ad/[IMGPATH]" alt="[IMGALT]" onclick="handleClickAndRemove('[LINK]')">
+  </div>
+  <div class="content">
+    <div class="h1"><a onclick="handleClickAndRemove('[LINK]')">[TITLE]</a></div>
+    <div class="p"><a onclick="handleClickAndRemove('[LINK]')">[SUBTITLE]</a></div>
+  </div>
+  <div class="button-container">
+    <a onclick="handleClickAndRemove('[LINK]')">[BTNTEXT]</a>
+  </div>
+</div>

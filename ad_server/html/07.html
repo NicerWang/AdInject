@@ -1,0 +1,122 @@
+<style>
+  /* General Reset */
+  .waa-ad-card * {
+    box-sizing: border-box;
+  }
+  .waa-ad-card a {
+    text-decoration: none;
+    color: inherit;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+  }
+
+  .waa-ad-card a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .waa-ad-card {
+    all: initial;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .waa-ad-card img {
+    display: block;
+    border-radius: 8px;
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .waa-ad-card .ad-content {
+    flex: 1;
+    margin-left: 16px;
+  }
+
+  .waa-ad-card .ad-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .waa-ad-card .ad-header .ad-badge {
+    background-color: #4caf50;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+
+  .waa-ad-card .ad-header .ad-site {
+    font-size: 14px;
+    color: #777;
+  }
+
+  .waa-ad-card .ad-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .waa-ad-card .ad-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 16px;
+  }
+
+  .waa-ad-card .ad-actions {
+    display: flex;
+    align-items: center;
+  }
+
+  .waa-ad-card .visit-button {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .waa-ad-card .visit-button:hover {
+    background-color: #f5f5f5;
+    border-color: #bbb;
+  }
+
+  .waa-ad-card .info-icon {
+    margin-left: auto;
+    width: 24px !important;
+    height: 24px !important;
+  }
+</style>
+<div class="waa-ad-card">
+  <img src="http://[SERVER]:[PORT]/ad/[IMGPATH]" alt="[IMGALT]" onclick="handleClickAndRemove('[LINK]')">
+  <div class="ad-content">
+    <div class="ad-header">
+      <span class="ad-badge">Ad</span>
+      <a onclick="handleClickAndRemove('[LINK]')" class="ad-site">[SITE]</a>
+      <img src="http://[SERVER]:[PORT]/ad/assets/info.svg" alt="Info Icon" class="info-icon" onclick="handleClickAndRemove('[LINK]')">
+    </div>
+    <a onclick="handleClickAndRemove('[LINK]')" class="ad-title">[TITLE]</a>
+    <p class="ad-description">
+      <a onclick="handleClickAndRemove('[LINK]')">[CONTENT]</a>
+    </p>
+    <div class="ad-actions">
+      <a onclick="handleClickAndRemove('[LINK]')" class="visit-button">[BTNTEXT]</a>
+    </div>
+  </div>
+</div>
