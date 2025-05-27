@@ -1,7 +1,7 @@
 # Code For AdInject
 
-* For ad server, see /ad_server/README.md
+* For ad server, see [AD_SERVER_README](./ad_server/README.md).
 
-* For OSWorld, see /osworld_attack/README.md
+* For OSWorld, see [OSWORLD_README](./osworld_attack/README.md).
 
-* For VisualWebArena, see /webarena_attack/README.md
+* For VisualWebArena, see [VWA_README](./webarena_attack/README.md)
