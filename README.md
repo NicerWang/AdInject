@@ -1,7 +1,21 @@
-# Code For AdInject
+# AdInject: Real-World Black-Box Attacks on Web Agents via Advertising Delivery
+
+[Paper Here](TODO)
+
+This repository contains the official implementation of the paper, "**AdInject: Real-World Black-Box Attacks on Web Agents via Advertising Delivery**". The paper introduces **ToolCommander**, a novel, real-world black-box attack method that leverages internet advertising delivery to inject malicious content into Web Agents' environments, misleading them into clicking ads with high success rates (often >60%, sometimes approaching 100%).
+
+![AdInject](./pages/src/assets/adinject-v2.png)
+
+## Usage
 
 * For ad server, see [AD_SERVER_README](./ad_server/README.md).
 
 * For OSWorld, see [OSWORLD_README](./osworld_attack/README.md).
 
 * For VisualWebArena, see [VWA_README](./webarena_attack/README.md)
+
+## Citation
+
+If you find this work useful, please consider citing the following paper:
+
+TODO
