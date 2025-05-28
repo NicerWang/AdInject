@@ -1,6 +1,6 @@
 # AdInject: Real-World Black-Box Attacks on Web Agents via Advertising Delivery
 
-[Paper Here](TODO)
+[Paper Here](https://arxiv.org/abs/2505.21499)
 
 This repository contains the official implementation of the paper, "**AdInject: Real-World Black-Box Attacks on Web Agents via Advertising Delivery**". The paper introduces **ToolCommander**, a novel, real-world black-box attack method that leverages internet advertising delivery to inject malicious content into Web Agents' environments, misleading them into clicking ads with high success rates (often >60%, sometimes approaching 100%).
 
@@ -17,5 +17,14 @@ This repository contains the official implementation of the paper, "**AdInject: 
 ## Citation
 
 If you find this work useful, please consider citing the following paper:
-
-TODO
+```
+@misc{wang2025adinjectrealworldblackboxattacks,
+      title={AdInject: Real-World Black-Box Attacks on Web Agents via Advertising Delivery}, 
+      author={Haowei Wang and Junjie Wang and Xiaojun Jia and Rupeng Zhang and Mingyang Li and Zhe Liu and Yang Liu and Qing Wang},
+      year={2025},
+      eprint={2505.21499},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2505.21499}, 
+}
+```
