@@ -2,7 +2,7 @@
 
 [Homepage](https://nicerwang.github.io/AdInject/) | [Paper Here](https://arxiv.org/abs/2505.21499)
 
-This repository contains the official implementation of the paper, "**AdInject: Real-World Black-Box Attacks on Web Agents via Advertising Delivery**". The paper introduces **ToolCommander**, a novel, real-world black-box attack method that leverages internet advertising delivery to inject malicious content into Web Agents' environments, misleading them into clicking ads with high success rates (often >60%, sometimes approaching 100%).
+This repository contains the official implementation of the paper, "**AdInject: Real-World Black-Box Attacks on Web Agents via Advertising Delivery**". The paper introduces **AdInject**, a novel, real-world black-box attack method that leverages internet advertising delivery to inject malicious content into Web Agents' environments, misleading them into clicking ads with high success rates (often >60%, sometimes approaching 100%).
 
 ![AdInject](./pages/src/assets/adinject-v2.png)
 
